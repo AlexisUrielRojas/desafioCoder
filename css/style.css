@@ -303,7 +303,13 @@ main{
     
 }
 
+.barraNav a {
+    position: relative;
+}
+
+
 /* animacion barra nav */
+
 
 .barraNav a::before {
     content: '';
@@ -332,8 +338,6 @@ main{
 .barraNav[data-animation="center"] a::before {
     transform-origin: center;
 }
-
-
 
 
 /* animacion banner informativo */
@@ -370,6 +374,9 @@ main{
     opacity: 1;
     }
 }
+  
+
+
 
 
 
