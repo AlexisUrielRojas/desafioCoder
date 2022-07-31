@@ -30,35 +30,11 @@ header{
     padding: 15px;
 }
 
-.barraNav{
-    list-style: none;
-    font-family: 'Poppins', sans-serif;
-    text-align: center;
-}
-
-
-li{
-    display: inline-block;
-}
-
-ul li{
-    list-style-type: none;
-}
-
-a{ 
-    text-decoration: none;
-    color: #000;
-    padding: 20px;
-    padding-bottom: 0px;
-}
-
-nav ul{
+.flex-nav{
     display: flex;
-    flex-direction: row;
     justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
 }
+
 
 .fotoInicio{
     display: flex;
@@ -171,7 +147,7 @@ h2{
     justify-content: center;
     text-align: center;
     font-family: 'Poppins', sans-serif;
-    margin-bottom: 60px;
+    margin-bottom: 115px;
 }
 
 
