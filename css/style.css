@@ -364,7 +364,7 @@ main{
 
 
 
-@media screen and (max-width: 480px){
+@media (max-width: 340px){
 
     .grillaIndex {
         display: grid;
@@ -379,12 +379,6 @@ main{
         "footer"
         ;
     } 
-
-    nav ul{
-        flex-direction: column;
-        justify-content: space-between;
-        align-items: center;
-    }
 
 
 
