@@ -1,0 +1,19 @@
+{
+  "name": "proyectoweb--github",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlexisUrielRojas/desafioCoder.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlexisUrielRojas/desafioCoder/issues"
+  },
+  "homepage": "https://github.com/AlexisUrielRojas/desafioCoder#readme"
+}

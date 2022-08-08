@@ -1,0 +1,108 @@
+body{
+    background-color: $clr-white ;
+}
+
+.grillaIndex {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-areas: 
+    "banner banner banner"
+    "logo logo logo"
+    "header header header"
+    "main main main"
+    "iconos iconos iconos"
+    "novedades novedades novedades"
+    "footer footer footer"
+    ;
+    gap: 20px;
+} 
+
+.bannerInformativo{
+    grid-area: banner;
+}
+
+.logo {
+    grid-area: logo;
+}
+
+.gridHeader{
+    grid-area: header;
+}
+
+main{
+    grid-area: main;
+}
+
+.gridIconos{
+    grid-area: iconos;
+}
+
+.novedades{
+    grid-area: novedades;
+}
+
+.gridFooter{
+    grid-area: footer;
+    
+}
+
+.bannerInformativo{
+    background-color: $clr-black;
+    color: $clr-white;
+    font-family: $ff-all;
+    text-align: center;
+}
+
+.logo {
+    padding: 10px;
+    text-align: center;
+}
+
+/* animacion banner informativo */
+
+
+.tracking-in-contract {
+	-webkit-animation: tracking-in-contract 0.8s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+	animation: tracking-in-contract 0.8s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+}
+
+@-webkit-keyframes tracking-in-contract {
+    0% {
+    letter-spacing: 1em;
+    opacity: 0;
+    }
+    40% {
+    opacity: 0.6;
+    }
+    100% {
+    letter-spacing: normal;
+    opacity: 1;
+    }
+}
+@keyframes tracking-in-contract {
+    0% {
+    letter-spacing: 1em;
+    opacity: 0;
+    }
+    40% {
+    opacity: 0.6;
+    }
+    100% {
+    letter-spacing: normal;
+    opacity: 1;
+    }
+}
+
+
+section{
+    padding: 60px;
+    font-family: $ff-all ;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
+    img{
+        width: 40%;
+    }
+}
