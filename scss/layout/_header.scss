@@ -1,10 +1,10 @@
 header{
     padding: 15px;
-    display: flex;
-    justify-content: center;
 }
 
-
+.flex-nav{
+    @include flexcenter
+}
 
 /* animacion barra nav */
 .barraNav a {

@@ -1,5 +1,6 @@
-@import "./general/reset";
-@import "./general/variables";
+@import "./utilities/reset";
+@import "./utilities/variables";
+@import "./utilities/mixins";
 @import "./layout/body";
 @import "./layout/header";
 @import "./layout/footer";
