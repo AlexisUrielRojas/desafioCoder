@@ -1,6 +1,11 @@
 header{
     padding: 15px;
+    background-color: $clr-white;
+    @include sticky; 
+    z-index: 1;
 }
+
+
 
 .flex-nav{
     @include flexcenter

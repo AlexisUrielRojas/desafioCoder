@@ -2,3 +2,9 @@
     display: flex;
     justify-content: center;
 }
+
+@mixin sticky {
+    position: sticky;
+    top: 0;
+    background-color: $clr-white;
+}
