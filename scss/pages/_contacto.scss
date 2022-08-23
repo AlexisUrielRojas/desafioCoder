@@ -1,0 +1,17 @@
+.containerContacto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+    margin: 50px;
+    margin-top: 0px;
+    margin-left: 30%;
+    margin-right: 30%;
+    font-family: $ff-all;
+}
+
+
+.textContacto{
+    margin-bottom: 17px;
+    margin-top: 10px;
+}

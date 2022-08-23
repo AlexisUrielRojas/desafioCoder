@@ -26,12 +26,14 @@
 
 .precioProduct{
     margin-bottom: 1rem;
+    font-weight: bold;
 }
 
 .btnComprar{
     padding: 15px;
     width: auto;
 }
+
 
 .containerProductos{
     display: flex;
@@ -43,9 +45,7 @@
 }
 
 .mainProductos{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @include flexcenter
 
 }
 

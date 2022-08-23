@@ -10,7 +10,6 @@
     "novedades novedades novedades"
     "footer footer footer"
     ;
-    gap: 20px;
 }
 
 .bannerInformativo{
@@ -54,6 +53,14 @@ main{
     display: flex;
     justify-content: center;
 }
+
+.mainIndex{
+    margin-top: 60px;
+    margin-left: 180px;
+    margin-right: 120px;
+    width: 83%;
+}
+
 
 /* animacion banner informativo */
 
