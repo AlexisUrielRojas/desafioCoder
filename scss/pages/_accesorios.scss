@@ -1,0 +1,25 @@
+.accesoriosP{
+    @include opcionGrid1
+}
+
+.imgAccesorios{
+    @extend .imgAll
+}
+
+.containerAccesorios{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+    margin-top: 0px;
+}
+
+.mainAccesorios{
+    @include flexcenter
+}
+
+.imgAccesorios img{
+    width: 100%;
+    height: 100%;
+}

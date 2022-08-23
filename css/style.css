@@ -11,7 +11,9 @@ h2 {
   font-family: "Poppins", sans-serif;
   text-align: center;
   padding: 20px;
-  font-size: 30px; }
+  font-size: 25px;
+  font-weight: 450;
+  letter-spacing: .1em; }
 
 header {
   padding: 15px;
@@ -21,9 +23,15 @@ header {
   background-color: #fff;
   z-index: 1; }
 
+.barraNav a {
+  font-family: "Poppins", sans-serif;
+  letter-spacing: .025em;
+  font-weight: 400; }
+
 .flex-nav {
   display: flex;
-  justify-content: center; }
+  justify-content: center;
+  align-items: center; }
 
 /* animacion barra nav */
 .barraNav a {
@@ -63,8 +71,7 @@ footer {
 .grillaIndex {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-template-areas: "banner banner banner" "logo logo logo" "header header header" "main main main" "iconos iconos iconos" "novedades novedades novedades" "footer footer footer";
-  gap: 20px; }
+  grid-template-areas: "banner banner banner" "logo logo logo" "header header header" "main main main" "iconos iconos iconos" "novedades novedades novedades" "footer footer footer"; }
 
 .bannerInformativo {
   grid-area: banner; }
@@ -97,6 +104,12 @@ main {
   padding: 10px;
   display: flex;
   justify-content: center; }
+
+.mainIndex {
+  margin-top: 60px;
+  margin-left: 180px;
+  margin-right: 120px;
+  width: 83%; }
 
 /* animacion banner informativo */
 .tracking-in-contract {
@@ -143,7 +156,7 @@ section {
   grid-template-rows: auto;
   gap: 70px; }
 
-.imgAll {
+.imgAll, .imgAccesorios, .imgOutlet, .imgGift {
   width: 400px;
   margin: 40px;
   display: flex;
@@ -157,7 +170,8 @@ section {
   margin-top: 1rem; }
 
 .precioProduct {
-  margin-bottom: 1rem; }
+  margin-bottom: 1rem;
+  font-weight: bold; }
 
 .btnComprar {
   padding: 15px;
@@ -176,26 +190,26 @@ section {
   justify-content: center;
   align-items: center; }
 
-.imgAll img {
+.imgAll img, .imgAccesorios img, .imgOutlet img, .imgGift img {
   width: 100%;
   height: 100%; }
 
 @media (max-width: 992px) {
   .tituloProductos h2 {
     font-size: 30px; }
-  .imgAll {
+  .imgAll, .imgAccesorios, .imgOutlet, .imgGift {
     width: 320px; } }
 
 @media (max-width: 768px) {
   .tituloProductos h2 {
     font-size: 30px; }
-  .imgAll {
+  .imgAll, .imgAccesorios, .imgOutlet, .imgGift {
     width: 260px; } }
 
 @media (max-width: 576px) {
   .tituloProductos h2 {
     font-size: 30px; }
-  .imgAll {
+  .imgAll, .imgAccesorios, .imgOutlet, .imgGift {
     width: 300px; }
   .productosP {
     padding: 30px;
@@ -205,9 +219,105 @@ section {
 @media (max-width: 480px) {
   .tituloProductos h2 {
     font-size: 30px; }
-  .imgAll {
+  .imgAll, .imgAccesorios, .imgOutlet, .imgGift {
     width: 300px; }
   .productosP {
     padding: 30px;
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: auto; } }
+
+.accesoriosP {
+  padding: 60px;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: auto;
+  gap: 70px; }
+
+.containerAccesorios {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 50px;
+  margin-top: 0px; }
+
+.mainAccesorios {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.imgAccesorios img {
+  width: 100%;
+  height: 100%; }
+
+.productosOutlet {
+  padding: 60px;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: auto;
+  gap: 70px; }
+
+.contaienrOutlet {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 50px;
+  margin-top: 0px; }
+
+.mainOutlet {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.sinNegrita {
+  font-weight: normal; }
+
+.imgOutlet img {
+  width: 100%;
+  height: 100%; }
+
+.giftCard {
+  padding: 60px;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: auto;
+  gap: 70px; }
+
+.cointainerGift {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 50px;
+  margin-top: 0px; }
+
+.mainGift {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.imgGift img {
+  width: 100%;
+  height: 100%; }
+
+.containerContacto {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: stretch;
+  margin: 50px;
+  margin-top: 0px;
+  margin-left: 30%;
+  margin-right: 30%;
+  font-family: "Poppins", sans-serif; }
+
+.textContacto {
+  margin-bottom: 17px;
+  margin-top: 10px; }

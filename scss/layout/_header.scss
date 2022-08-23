@@ -5,7 +5,11 @@ header{
     z-index: 1;
 }
 
-
+.barraNav a{
+    font-family: $ff-all;
+    letter-spacing: .025em;
+    font-weight: 400;
+}
 
 .flex-nav{
     @include flexcenter
