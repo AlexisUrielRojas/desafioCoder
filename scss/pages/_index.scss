@@ -102,10 +102,24 @@ section{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-evenly;
     text-align: center;
-    img{
-        width: 40%;
-    }
+    margin-top: 80px;
+    margin-bottom: 80px;
 }
 
+.h2Iconos{
+    padding: 0px;
+}
+
+
+@media (max-width: 1080px){
+
+    section{
+        flex-direction: column;
+    }
+
+    .icono{
+        margin-bottom: 60px;
+    }
+}

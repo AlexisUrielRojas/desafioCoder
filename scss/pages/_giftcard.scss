@@ -23,3 +23,57 @@
     width: 100%;
     height: 100%;
 }
+
+@media (max-width: 992px) {
+    .tituloGift h2{
+        font-size: 30px;
+    }
+    .imgGift{
+        width: 320px;
+
+
+    }
+
+}
+
+@media (max-width: 768px) {
+    .tituloGift h2{
+        font-size: 30px;
+    }
+    .imgGift{
+        width: 260px;
+
+    }
+
+}
+
+@media (max-width: 576px) {
+    .tituloGift h2{
+        font-size: 30px;
+    }
+    .imgGift{
+        width: 300px;
+
+    }
+    .giftCard{
+        padding: 30px;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: auto;
+}
+}
+
+@media (max-width: 480px) {
+    .tituloGift h2{
+        font-size: 30px;
+    }
+    .imgGift{
+        width: 300px;
+
+    }
+
+    .giftCard{
+        padding: 30px;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: auto;
+}
+}
