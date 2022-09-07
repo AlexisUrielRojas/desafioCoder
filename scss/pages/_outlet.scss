@@ -27,3 +27,57 @@
     width: 100%;
     height: 100%;
 }
+
+@media (max-width: 992px) {
+    .tituloOutlet h2{
+        font-size: 30px;
+    }
+    .imgOutlet{
+        width: 320px;
+
+
+    }
+
+}
+
+@media (max-width: 768px) {
+    .tituloOutlet h2{
+        font-size: 30px;
+    }
+    .imgOutlet{
+        width: 260px;
+
+    }
+
+}
+
+@media (max-width: 576px) {
+    .tituloOutlet h2{
+        font-size: 30px;
+    }
+    .imgOutlet{
+        width: 300px;
+
+    }
+    .productosOutlet{
+        padding: 30px;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: auto;
+}
+}
+
+@media (max-width: 480px) {
+    .tituloOutlet h2{
+        font-size: 30px;
+    }
+    .imgOutlet{
+        width: 300px;
+
+    }
+
+    .productosOutlet{
+        padding: 30px;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: auto;
+}
+}

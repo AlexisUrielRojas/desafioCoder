@@ -23,3 +23,57 @@
     width: 100%;
     height: 100%;
 }
+
+@media (max-width: 992px) {
+    .tituloAccesorios h2{
+        font-size: 30px;
+    }
+    .imgAccesorios{
+        width: 320px;
+
+
+    }
+
+}
+
+@media (max-width: 768px) {
+    .tituloAccesorios h2{
+        font-size: 30px;
+    }
+    .imgAccesorios{
+        width: 260px;
+
+    }
+
+}
+
+@media (max-width: 576px) {
+    .tituloAccesorios h2{
+        font-size: 30px;
+    }
+    .imgAccesorios{
+        width: 300px;
+
+    }
+    .accesoriosP{
+        padding: 30px;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: auto;
+}
+}
+
+@media (max-width: 480px) {
+    .tituloAccesorios h2{
+        font-size: 30px;
+    }
+    .imgAccesorios{
+        width: 300px;
+
+    }
+
+    .accesoriosP{
+        padding: 30px;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: auto;
+}
+}

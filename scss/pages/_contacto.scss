@@ -5,8 +5,8 @@
     align-items: stretch;
     margin: 50px;
     margin-top: 0px;
-    margin-left: 30%;
-    margin-right: 30%;
+    margin-left: 18%;
+    margin-right: 18%;
     font-family: $ff-all;
 }
 
@@ -14,4 +14,14 @@
 .textContacto{
     margin-bottom: 17px;
     margin-top: 10px;
+}
+
+
+@media (max-width: 1311px){
+.containerContacto{
+    margin: 50px;
+    margin-top: 0px;
+    margin-left: 9%;
+    margin-right: 9%;
+}
 }
