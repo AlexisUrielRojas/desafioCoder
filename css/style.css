@@ -68,6 +68,115 @@ footer {
   footer .copyR {
     text-align: center; }
 
+footer {
+  background: #000000;
+  color: #fff;
+  font-size: 14px; }
+
+footer .footer-top {
+  background: #000000;
+  padding: 50px 0px 20px; }
+
+.row {
+  justify-content: space-between; }
+
+footer .social-links a {
+  font-size: 17px;
+  font-family: 'Poppins', sans-serif;
+  display: inline-block;
+  background: #28251f;
+  color: #fff;
+  line-height: 1;
+  padding: 9px 0;
+  margin-right: 5px;
+  border-radius: 100%;
+  text-align: center;
+  width: 36px;
+  height: 36px;
+  transition: 0.4s; }
+
+footer .social-links a:hover {
+  background: #e0d9cc; }
+
+footer h4 {
+  font-size: 18px;
+  color: #e0d9cc;
+  padding-bottom: 12px;
+  font-family: 'Poppins', sans-serif; }
+
+footer .footer-menus {
+  margin-bottom: 30px; }
+
+footer .footer-menus ul {
+  list-style: none;
+  padding: 0;
+  margin: 0; }
+
+footer .footer-menus ul li {
+  margin-bottom: 10px; }
+
+footer .footer-menus ul i {
+  color: #ffffff;
+  font-size: 12px;
+  margin-right: 3px; }
+
+footer .footer-menus ul a {
+  color: #fff;
+  text-decoration: none; }
+
+footer .footer-menus ul a:hover {
+  color: #e0d9cc; }
+
+footer .newsletter form {
+  margin-left: 0px;
+  margin-top: 30px;
+  background: #3a3a3a;
+  padding: 6px 10px;
+  position: relative;
+  border-radius: 50px;
+  border: 1px solid #3a3a3a; }
+
+#submit1 {
+  width: 97px;
+  height: 46px;
+  border: none;
+  margin-top: 20px;
+  cursor: pointer; }
+
+footer .newsletter form input[type="email"] {
+  border: 0;
+  padding: 5px;
+  background: #3a3a3a;
+  color: #fff;
+  font-size: 16px;
+  font-family: 'Poppins', sans-serif; }
+
+footer .newsletter form input[type="email"]:focus {
+  outline: none; }
+
+footer .newsletter form input[type="submit"] {
+  position: absolute;
+  top: -21px;
+  right: -1px;
+  bottom: 0px;
+  border: 0;
+  font-size: 16px;
+  font-family: 'Poppins', sans-serif;
+  background: #ffffff;
+  color: #000;
+  border-bottom-right-radius: 50px;
+  border-top-right-radius: 50px; }
+
+footer .newsletter form input[type="submit"]:hover {
+  background: #e0d9cc; }
+
+.footer-bottom {
+  padding: 20px 0px; }
+
+footer .footer-bottom a {
+  color: #e0d9cc;
+  text-decoration: none; }
+
 .grillaIndex {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
