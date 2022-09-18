@@ -58,6 +58,26 @@ header {
 .barraNav[data-animation="center"] a::before {
   transform-origin: center; }
 
+.headerSticky {
+  display: flex;
+  align-items: center;
+  justify-content: space-around; }
+
+.iconosUsuario {
+  display: flex; }
+
+.iconos28 {
+  margin-left: 20px; }
+
+@media (max-width: 768px) {
+  .iconos28 img {
+    width: 21px; } }
+
+@media (max-width: 480px) {
+  .iconosUsuario {
+    display: flex;
+    flex-direction: column; } }
+
 footer {
   padding: 60px;
   padding-bottom: 7px;
@@ -212,7 +232,8 @@ main {
 .logo {
   padding: 10px;
   display: flex;
-  justify-content: center; }
+  justify-content: center;
+  margin-left: 156px; }
 
 .mainIndex {
   margin: 0px auto;
@@ -259,9 +280,16 @@ section {
 
 @media (max-width: 1080px) {
   section {
-    flex-direction: column; }
+    flex-direction: column;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-bottom: 20px; }
   .icono {
     margin-bottom: 60px; } }
+
+@media (max-width: 480px) {
+  .logo {
+    margin-left: 30px; } }
 
 .productosP {
   padding: 60px;

@@ -45,3 +45,33 @@ header{
 .barraNav[data-animation="center"] a::before {
     transform-origin: center;
 }
+
+.headerSticky{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.iconosUsuario{
+    display: flex;
+}
+
+.iconos28{
+    margin-left: 20px;
+}
+
+
+@media (max-width: 768px){
+    .iconos28 img{
+        width: 21px;
+    }
+}
+
+@media (max-width: 480px){
+    .iconosUsuario{
+        display: flex;
+        flex-direction: column;
+    }
+
+}
