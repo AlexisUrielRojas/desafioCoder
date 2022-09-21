@@ -142,3 +142,9 @@ footer .footer-bottom a {
     }
 }
 
+@media (max-width: 780px) {
+    footer .newsletter form input[type="submit"]{
+        right: -56px;
+    }
+}
+

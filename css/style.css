@@ -211,6 +211,10 @@ footer .footer-bottom a {
     top: -20px;
     right: -48px; } }
 
+@media (max-width: 780px) {
+  footer .newsletter form input[type="submit"] {
+    right: -56px; } }
+
 .grillaIndex {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
