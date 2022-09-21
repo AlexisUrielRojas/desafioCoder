@@ -42,10 +42,13 @@ main{
 }
 
 .bannerInformativo{
+    padding: 7px;
     background-color: $clr-black;
-    color: $clr-white;
+    color: #e0d9cc;
     font-family: $ff-all;
+    font-weight: bold;
     text-align: center;
+    font-size: small;
 }
 
 .logo {
