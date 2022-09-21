@@ -85,7 +85,7 @@ footer .newsletter form {
 
 #submit1 {
     width:97px;
-    height:46px;
+    height:47px;
     border:none;
     margin-top:20px;
     cursor:pointer;
@@ -129,11 +129,12 @@ footer .footer-bottom a {
 
 
 @media (max-width: 480px) {
-    footer .newsletter form input[type="submit"]{
-        font-size: 14px;
+    footer .newsletter form input[type="email"]{
+        font-size: 12px;
     }
     #submit1{
-        height: 46px;
+        width: 80px;
+        height: 41px;
     }
     footer .newsletter form input[type="submit"]{
         top: -20px;
