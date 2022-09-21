@@ -128,3 +128,16 @@ footer .footer-bottom a {
 }
 
 
+@media (max-width: 480px) {
+    footer .newsletter form input[type="submit"]{
+        font-size: 14px;
+    }
+    #submit1{
+        height: 46px;
+    }
+    footer .newsletter form input[type="submit"]{
+        top: -20px;
+        right: -48px;
+    }
+}
+

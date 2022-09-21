@@ -201,6 +201,15 @@ footer .footer-bottom a {
   color: #e0d9cc;
   text-decoration: none; }
 
+@media (max-width: 480px) {
+  footer .newsletter form input[type="submit"] {
+    font-size: 14px; }
+  #submit1 {
+    height: 46px; }
+  footer .newsletter form input[type="submit"] {
+    top: -20px;
+    right: -48px; } }
+
 .grillaIndex {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
