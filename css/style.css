@@ -209,7 +209,7 @@ footer .footer-bottom a {
     height: 41px; }
   footer .newsletter form input[type="submit"] {
     top: -20px;
-    right: -48px; } }
+    right: -16px; } }
 
 @media (max-width: 780px) {
   footer .newsletter form input[type="submit"] {
